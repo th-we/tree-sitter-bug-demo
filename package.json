@@ -1,0 +1,21 @@
+{
+  "name": "tree-sitter-crash-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tree-sitter generate && node-gyp build && node_modules/.bin/tree-sitter test"
+  },
+  "author": "Thomas Weber",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.13.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:th-we/tree-sitter-crash-demo.git"
+  },
+  "keywords": [
+    "parser",
+    "lexer"
+  ]
+}
